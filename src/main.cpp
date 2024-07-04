@@ -602,7 +602,9 @@ void temperatureMonitor() {
 				}
 			#endif
 
-			fanChangeState(temperature > (currentSetpoint + 5));
+			#if USE_FAN_IN_HEATING
+				fanChangeState(temperature > (currentSetpoint + FAN_IN_HEATING_RANGE));
+			#endif
 		}
 
 		if (

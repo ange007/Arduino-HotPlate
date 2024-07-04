@@ -16,6 +16,13 @@
 * NTC 3950 100К thermistor
 * Time...
 
+### Case 3D Model:
+* Body
+* Top plate (fan/heater)
+* Bottom plate (Arduino/etc...)
+* Front (for display and buttons)
+* Brackets (x2 for encoder mounting)
+
 ### Firmware Functions
 * Custom Mode
 * Reflow Mode

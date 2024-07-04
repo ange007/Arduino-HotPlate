@@ -30,6 +30,9 @@
 #define HEAT_SECONDS 90
 #define ERROR_SECONDS 120
 
+#define USE_FAN_IN_HEATING true
+#define FAN_IN_HEATING_RANGE 10
+
 /**
  * 
 */
